@@ -233,6 +233,6 @@ Please check the repository before using PCBnet for commercial applications or r
 For questions, suggestions, or collaboration inquiries, please contact:
 
 **Zhen Huang**
-Email: `zhenhuang@mail.ustc.edu.c`
+Email: `zhenhuang@mail.ustc.edu.cn`
 
 Issues and pull requests are also welcome.
