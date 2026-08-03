@@ -1,6 +1,7 @@
 # PCBnet
 **PCBnet: A Dataset and Automatic Construction of SPICE Netlists from Schematic Images** 
-Our paper is published on IEEE LAD 2026 (07.29-07.31 2026, Stanford, CA, USA)
+
+### Our paper is published on IEEE LAD 2026 (07.29-07.31 2026, Stanford, CA, USA)
 
 PCBnet is a large-scale dataset and benchmark for PCB schematic understanding and automatic schematic-to-SPICE-netlist construction.
 
