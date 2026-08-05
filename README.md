@@ -1,47 +1,28 @@
 # PCBnet
-**PCBnet: A Dataset and Automatic Construction of SPICE Netlists from Schematic Images** 
 
-### Our paper is published on IEEE LAD 2026 (07.29-07.31 2026, Stanford, CA, USA)
+**PCBnet: A Dataset and Automatic Construction of SPICE Netlists from Schematic Images**
+
+[![Dataset](https://img.shields.io/badge/Dataset-Google%20Drive-blue?logo=googledrive)](https://drive.google.com/file/d/1q_rwzchFRyd0hJ3nsOWFcPZn-zny_ccW/view?usp=drive_link)
+[![Conference](https://img.shields.io/badge/IEEE%20LAD-2026-green)](#)
+
+## Overview
 
 PCBnet is a large-scale dataset and benchmark for PCB schematic understanding and automatic schematic-to-SPICE-netlist construction.
 
 The project provides a topology-oriented pipeline that combines visual element recognition, circuit structure construction, and multi-agent correction to recover structured circuit connectivity from PCB schematic images.
 
-> **Dataset status:** The data is on the way and will be released soon.
-
-## Overview
-
-Printed circuit board design remains highly dependent on manual engineering workflows. Although AI has shown considerable potential in electronic design automation, progress in PCB schematic understanding is limited by the lack of large-scale paired schematic–netlist datasets.
-
-PCBnet is designed to address this gap. It contains real-world PCB schematic designs with detailed annotations for:
-
-* Circuit components
-* Component pins
-* Wires
-* Text regions
-* Character-level text labels
-* Paired SPICE netlists
-
-The repository also contains an automatic image-to-netlist framework for recognizing schematic elements, recovering circuit topology, and correcting recognition errors using domain knowledge and multimodal agents.
-
 ## Dataset
 
-PCBnet is constructed from more than 300 real-world PCB designs collected from open-source hardware projects and commonly used EDA formats, including KiCad and EasyEDA.
+The PCBnet dataset is available through Google Drive:
 
-The dataset contains approximately:
+**[Download PCBnet Dataset](https://drive.google.com/file/d/1q_rwzchFRyd0hJ3nsOWFcPZn-zny_ccW/view?usp=drive_link)**
 
-| Annotation type     |                         Scale |
-| ------------------- | ----------------------------: |
-| PCB designs         |                          300+ |
-| Component instances |                       50,000+ |
-| Wire annotations    |                      150,000+ |
-| Text regions        |                      100,000+ |
-| Labeled characters  |                      400,000+ |
-| SPICE netlists      | Paired with schematic designs |
+Please refer to the accompanying documentation for the dataset organization and usage instructions.
 
-Each design provides a one-to-one correspondence between the rendered schematic image and its structured circuit netlist.
+## Publication
 
-The dataset is divided into training, validation, and test sets at the design level using an `8:1:1` split.
+Our paper was published at **IEEE LAD 2026**, held from **July 29 to July 31, 2026**, in **Stanford, California, USA**.
+
 
 ## Supported Tasks
 
