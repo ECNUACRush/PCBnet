@@ -19,6 +19,9 @@ The PCBnet dataset is available through Google Drive:
 
 Please refer to the accompanying documentation for the dataset organization and usage instructions.
 
+> **Note:** Due to intellectual property restrictions, we are currently unable to release the source code. Our full dataset contains over 50,000 data instances, from which 300 samples are randomly selected for demonstration in this repository. These samples may not exactly match those used in the paper, as the experimental data were also randomly shuffled during dataset preparation.
+
+
 ## Publication
 
 Our paper was published at **IEEE LAD 2026**, held from **July 29 to July 31, 2026**, in **Stanford, California, USA**.
