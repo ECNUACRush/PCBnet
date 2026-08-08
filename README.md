@@ -13,9 +13,12 @@ The project provides a topology-oriented pipeline that combines visual element r
 
 ## Dataset
 
-The PCBnet dataset is available through Google Drive:
+The PCBnet dataset is available through Google Drive or Alibaba Cloud:
 
-**[Download PCBnet Dataset](https://drive.google.com/file/d/1q_rwzchFRyd0hJ3nsOWFcPZn-zny_ccW/view?usp=drive_link)**
+Google Drive: **[Download PCBnet Dataset](https://drive.google.com/file/d/1q_rwzchFRyd0hJ3nsOWFcPZn-zny_ccW/view?usp=drive_link)**
+
+Ali Cloud link: https://www.alipan.com/s/HYuvtbNZf3q
+Password: 89di
 
 Please refer to the accompanying documentation for the dataset organization and usage instructions.
 
